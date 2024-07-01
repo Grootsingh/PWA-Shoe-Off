@@ -1,7 +1,3 @@
-import { precacheAndRoute } from "workbox-precaching";
-
-precacheAndRoute(self.__WB_MANIFEST);
-
 const version = 1;
 const cacheName = `asset-${version}`;
 

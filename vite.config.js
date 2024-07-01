@@ -9,11 +9,12 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
-
+      strategies: "injectManifest",
       srcDir: "src",
       filename: "sw.js",
       registerType: "autoUpdate",
       injectManifest: {
+        swDest: "dist/sw.js",
         injectionPoint: undefined,
       },
 

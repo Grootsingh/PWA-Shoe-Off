@@ -3,7 +3,7 @@
 Welcome to Shoe-off, your ultimate destination for stylish shoes with a tech twist!
 
 ## Visit the Site 🌐
-Ready to dive into the world of awesome shoes? Visit Shoe-off [here](https://example.com) 🛍️✨
+Ready to dive into the world of awesome shoes? Visit Shoe-off [here](https://pwa-shoe-off-ecommerce.vercel.app/) 🛍️✨
 
 ## About the Project
 Shoe-off isn't just an online shoe store; it's a vibe! This project showcases my frontend skills using ReactJS and Tailwind CSS, delivering a lit shopping experience as stylish as the shoes we sell.

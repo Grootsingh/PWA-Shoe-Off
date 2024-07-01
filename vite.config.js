@@ -14,7 +14,6 @@ export default defineConfig({
       filename: "sw.js",
       registerType: "autoUpdate",
       injectManifest: {
-        swDest: "dist/sw.js",
         injectionPoint: undefined,
       },
 

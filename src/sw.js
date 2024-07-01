@@ -1,7 +1,9 @@
-const version = 3;
-const cacheName = `asset-${version}`;
+import { precacheAndRoute } from "workbox-precaching";
 
-// const appshell = ["/", "/index.html"];
+precacheAndRoute(self.__WB_MANIFEST);
+
+const version = 1;
+const cacheName = `asset-${version}`;
 
 const images = [
   "src/assets/flyknit.jpg",

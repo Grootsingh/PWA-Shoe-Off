@@ -15,6 +15,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectManifest: {
         swDest: "dist/sw.js",
+        injectionPoint: undefined,
       },
       manifest: {
         name: "Shoe Off",

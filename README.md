@@ -18,10 +18,10 @@ Shoe-off isn't just an online shoe store; it's a vibe! This project showcases my
 4. **Add to Cart Feature**: Added a seamless 'Add to Cart' functionality, allowing users to easily add and purchase their favorite shoes.
 
 ## Demo
-- ![Desktop Version-1](/PWA-Shoe-Off/public/desktop-screenshot-1.png)
-- ![Desktop Version-2](/PWA-Shoe-Off/public/desktop-screenshot-2.png)
-- ![Desktop Version-3](/PWA-Shoe-Off/public/desktop-screenshot-3.png)
-- ![Desktop Version-2](/PWA-Shoe-Off/public/desktop-screenshot-4.png)
+- ![Desktop Version-1](public/desktop-screenshot-1.png)
+- ![Desktop Version-2](public/desktop-screenshot-2.png)
+- ![Desktop Version-3](public/desktop-screenshot-3.png)
+- ![Desktop Version-2](public/desktop-screenshot-4.png)
 
 ## Technologies Used
 - ReactJS

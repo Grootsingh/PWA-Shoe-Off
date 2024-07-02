@@ -26,22 +26,22 @@ function Cart() {
      <Dialog
         open={isOpen}
         onClose={() => {}}
-        onClick={(event) => {
-          if (event.target?.id === "onClose") {
-            dispatch(closeCart());
-            console.log("hihi")
-          }
-        }}
       >
         <div
           className="fixed inset-0 bg-black/30 animate-fade"
           aria-hidden="true"
         />
         <div
-          id="onClose"
+          id="onClose"   
+          onClick={(event) => {
+            if(event.target?.id === "onClose"){
+              dispatch(closeCart())
+            }
+          }}
+
           className="fixed inset-0  flex w-screen items-center justify-center p-4 z-[5]"
         >
-          <Dialog.Panel className="flex flex-col animate-slide will-change-transform fixed right-0 h-full w-[300px] bg-white">
+          <Dialog.Panel  className="flex flex-col animate-slide will-change-transform fixed right-0 h-full w-[300px] bg-white">
             <CloseBtn />
             <div id="space" className="h-16"></div>
             <div className="overflow-auto flex-1 px-6 pb-8 flex flex-col  ">

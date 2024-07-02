@@ -101,8 +101,8 @@ function PageNotFound({ isSearch }) {
 function CartCardPopup({ popupItem, setfade, fade }) {
   const TimeOutRef = React.useRef({
     fadeOut: undefined,
-    resetPopup: undefined,
   });
+  console.log(fade)
   function resetPopupItem() {
     setfade("disappear");
   }
@@ -110,7 +110,7 @@ function CartCardPopup({ popupItem, setfade, fade }) {
     if (fade === "fadeIn") {
       TimeOutRef.current.fadeOut = setTimeout(() => {
         setfade("fadeOut");
-        TimeOutRef.current.resetPopup = setTimeout(() => {
+        setTimeout(() => {
           resetPopupItem();
         }, 1 * 500);
       }, 3 * 1000);
@@ -118,7 +118,6 @@ function CartCardPopup({ popupItem, setfade, fade }) {
 
     return () => {
       clearTimeout(TimeOutRef.current.fadeOut);
-      clearTimeout(TimeOutRef.current.resetPopup);
     };
   }, [fade, popupItem?.slug]);
 
